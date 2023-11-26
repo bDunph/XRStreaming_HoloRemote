@@ -298,13 +298,13 @@
       "url": "https://packages.unity.com"
     },
     "nyc.scatter.depthkit.core": {
-      "version": "file:C:/Users/Bryan/Documents/vtl/Software/Scatter/Depthkit/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.core",
+      "version": "file:C:/Users/Bryan/Documents/vtl/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.core",
       "depth": 0,
       "source": "local",
       "dependencies": {}
     },
     "nyc.scatter.depthkit.studio": {
-      "version": "file:C:/Users/Bryan/Documents/vtl/Software/Scatter/Depthkit/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.studio",
+      "version": "file:C:/Users/Bryan/Documents/vtl/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.studio",
       "depth": 0,
       "source": "local",
       "dependencies": {

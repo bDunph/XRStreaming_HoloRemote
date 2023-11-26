@@ -3,6 +3,7 @@
     "com.microsoft.mixedreality.openxr": "file:MixedReality/com.microsoft.mixedreality.openxr-1.8.0.tgz",
     "com.microsoft.mixedreality.toolkit.foundation": "file:MixedReality/com.microsoft.mixedreality.toolkit.foundation-2.8.3.tgz",
     "com.microsoft.mixedreality.toolkit.standardassets": "file:MixedReality/com.microsoft.mixedreality.toolkit.standardassets-2.8.3.tgz",
+    "com.microsoft.spatialaudio.spatializer.unity": "file:MixedReality/com.microsoft.spatialaudio.spatializer.unity-2.0.37.tgz",
     "com.unity.collab-proxy": "1.15.16",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.13",
@@ -15,8 +16,8 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.6",
     "com.unity.xr.openxr": "1.8.1",
-    "nyc.scatter.depthkit.core": "file:C:/Users/Bryan/Documents/vtl/Software/Scatter/Depthkit/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.core",
-    "nyc.scatter.depthkit.studio": "file:C:/Users/Bryan/Documents/vtl/Software/Scatter/Depthkit/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.studio",
+    "nyc.scatter.depthkit.core": "file:C:/Users/Bryan/Documents/vtl/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.core",
+    "nyc.scatter.depthkit.studio": "file:C:/Users/Bryan/Documents/vtl/Depthkit_Studio_Expansion_Package_Phase8_030722/depthkit.studio",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -47,7 +48,6 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.microsoft.spatialaudio.spatializer.unity": "file:MixedReality/com.microsoft.spatialaudio.spatializer.unity-2.0.37.tgz"
+    "com.unity.modules.xr": "1.0.0"
   }
 }
