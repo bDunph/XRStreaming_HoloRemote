@@ -291,6 +291,7 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
         {
             SetObjectActive(flatUI, false);
             SetObjectActive(collapsedFlatUI, false);
+            SetObjectActive(loadAssetUI, false);
         }
 
         //////////////////////////////////// Misc. Helpers ////////////////////////////////////
