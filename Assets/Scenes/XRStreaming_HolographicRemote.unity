@@ -724,6 +724,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75572370}
   m_CullTransparentMesh: 1
+--- !u!1 &96817529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 96817532}
+  - component: {fileID: 96817531}
+  - component: {fileID: 96817530}
+  m_Layer: 0
+  m_Name: GltfAsset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &96817530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96817529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85a5fb774dd85ad4ab277953c4ab40fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modelPath: {fileID: 14629905}
+--- !u!114 &96817531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96817529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b781fe673a5534e91b1e802df4b9362e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  importSettings:
+    nodeNameMethod: 0
+    animationMethod: 1
+    generateMipMaps: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  url: 
+  loadOnStartup: 1
+  sceneId: -1
+  playAutomatically: 1
+  streamingAsset: 0
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+--- !u!4 &96817532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96817529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.352333, y: -0.17962629, z: 0.9173162}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &149303129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1413,7 +1489,7 @@ PrefabInstance:
       objectReference: {fileID: 1010208621}
     - target: {fileID: 6852714470592820091, guid: bc23866b99358f44dad309d3c7999034, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6852714470592820091, guid: bc23866b99358f44dad309d3c7999034, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1461,7 +1537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7371666734858829522, guid: bc23866b99358f44dad309d3c7999034, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8918224221568348265, guid: bc23866b99358f44dad309d3c7999034, type: 3}
       propertyPath: m_poster
@@ -4238,7 +4314,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &870658118
 GameObject:
@@ -4336,7 +4412,7 @@ RectTransform:
   - {fileID: 384208886}
   - {fileID: 6645711412800871294}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4441,7 +4517,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 870837083}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 96817530}
+        m_TargetAssemblyTypeName: ModelPathManager, Assembly-CSharp
+        m_MethodName: GetModelPath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &870837083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4749,7 +4837,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
@@ -6057,7 +6145,7 @@ Transform:
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1799743990
 PrefabInstance:
@@ -6068,7 +6156,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8606704443283918744, guid: 686aee9ac52fc074ebfc85a56c45b056, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 8606704443283918744, guid: 686aee9ac52fc074ebfc85a56c45b056, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6129,7 +6217,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7143711137214802381, guid: 8a16fcd0952bcfe419cdb4a2cfc123cb, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7143711137214802381, guid: 8a16fcd0952bcfe419cdb4a2cfc123cb, type: 3}
       propertyPath: m_LocalScale.x
@@ -6288,7 +6376,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1969885238
 GameObject:
@@ -6455,7 +6543,7 @@ Transform:
   m_Children:
   - {fileID: 815950705}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2011969959
 GameObject:
@@ -8170,7 +8258,7 @@ Transform:
   - {fileID: 5475177577828418392}
   - {fileID: 489502760195936105}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!222 &4739495324866262758
 CanvasRenderer:
