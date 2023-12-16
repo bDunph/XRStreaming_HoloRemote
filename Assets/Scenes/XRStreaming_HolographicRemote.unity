@@ -993,6 +993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Depthkit Clip + Studio Built-in Look
       objectReference: {fileID: 0}
+    - target: {fileID: 7371666734858829522, guid: bc23866b99358f44dad309d3c7999034, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8918224221568348265, guid: bc23866b99358f44dad309d3c7999034, type: 3}
       propertyPath: m_poster
       value: 
@@ -3844,6 +3848,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assetLoadCollapsedUI: {fileID: 384208885}
   assetLoadExpandedUI: {fileID: 8468494853868592625}
+  appRemotingUI: {fileID: 3937077915911882292}
 --- !u!1 &870837080
 GameObject:
   m_ObjectHideFlags: 0

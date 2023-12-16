@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject assetLoadCollapsedUI;
     public GameObject assetLoadExpandedUI;
+    public GameObject appRemotingUI;
 
     // Start is called before the first frame update
     void Start()
@@ -23,5 +24,6 @@ public class UIManager : MonoBehaviour
     {
         assetLoadCollapsedUI.SetActive(false);
         assetLoadExpandedUI.SetActive(true);
+        appRemotingUI.SetActive(false);
     }
 }
