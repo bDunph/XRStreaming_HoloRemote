@@ -26,4 +26,11 @@ public class UIManager : MonoBehaviour
         assetLoadExpandedUI.SetActive(true);
         appRemotingUI.SetActive(false);
     }
+
+    public void OnGoBackPressed()
+    {
+        assetLoadCollapsedUI.SetActive(true);
+        assetLoadExpandedUI.SetActive(false);
+        appRemotingUI.SetActive(true);
+    }
 }
