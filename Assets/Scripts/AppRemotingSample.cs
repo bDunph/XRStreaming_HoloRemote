@@ -17,6 +17,10 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
     /// </summary>
     public class AppRemotingSample : MonoBehaviour
     {
+        //Bryan 17/12/2023
+        public GameObject modelPlacementButton;
+        public GameObject videoPlacementButton;
+
         // Added by Bryan 16/12/2023
         [SerializeField, Tooltip("The UI to enable loading of assets before the remote session is started")]
         public GameObject loadAssetUI;
@@ -221,6 +225,9 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
             SetObjectActive(collapsedFlatUI, false);
             //Bryan 16/12/2023
             SetObjectActive(loadAssetUI, false);
+            //Bryan 17/12/2023
+            SetObjectActive(modelPlacementButton, false);
+            SetObjectActive(videoPlacementButton, false);
         }
 
         public void OnCloseRemotingUIButtonPressed()
@@ -229,6 +236,9 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
             SetObjectActive(collapsedFlatUI, true);
             //Bryan 16/12/2023
             SetObjectActive(loadAssetUI, true);
+            //Bryan 17/12/2023
+            SetObjectActive(modelPlacementButton, true);
+            SetObjectActive(videoPlacementButton, true);
         }
 
 
@@ -291,7 +301,11 @@ namespace Microsoft.MixedReality.OpenXR.BasicSample
         {
             SetObjectActive(flatUI, false);
             SetObjectActive(collapsedFlatUI, false);
+            //Bryan 16/12/2023
             SetObjectActive(loadAssetUI, false);
+            //Bryan 17/12/2023
+            SetObjectActive(modelPlacementButton, false);
+            SetObjectActive(videoPlacementButton, false);
         }
 
         //////////////////////////////////// Misc. Helpers ////////////////////////////////////
