@@ -1793,7 +1793,7 @@ GameObject:
   - component: {fileID: 106118249}
   - component: {fileID: 106118248}
   m_Layer: 5
-  m_Name: CollapseButton
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5496,7 +5496,7 @@ GameObject:
   - component: {fileID: 215350997}
   - component: {fileID: 215350996}
   m_Layer: 5
-  m_Name: CollapseButton
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7176,7 +7176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collapse
+  m_text: Close
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8904,8 +8904,8 @@ MonoBehaviour:
   modelPlacementPanel: {fileID: 1068482612}
   openVideoPlacementButton: {fileID: 1981586575}
   openModelPlacementButton: {fileID: 395641773}
-  appRemotingButton: {fileID: 0}
-  loadAssetButton: {fileID: 0}
+  appRemotingButton: {fileID: 2646781612029993263}
+  loadAssetButton: {fileID: 1676546750}
 --- !u!1 &610560036
 GameObject:
   m_ObjectHideFlags: 0
@@ -13776,7 +13776,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collapse
+  m_text: Close
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

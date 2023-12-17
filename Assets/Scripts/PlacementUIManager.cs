@@ -27,6 +27,7 @@ public class PlacementUIManager : MonoBehaviour
     {
         videoPlacementPanel.SetActive(true);
         openVideoPlacementButton.SetActive(false);
+        openModelPlacementButton.SetActive(false);
         appRemotingButton.SetActive(false);
         loadAssetButton.SetActive(false);
     }
@@ -35,6 +36,7 @@ public class PlacementUIManager : MonoBehaviour
     {
         videoPlacementPanel.SetActive(false);
         openVideoPlacementButton.SetActive(true);
+        openModelPlacementButton.SetActive(true);
         appRemotingButton.SetActive(true);
         loadAssetButton.SetActive(true);
     }
@@ -43,14 +45,16 @@ public class PlacementUIManager : MonoBehaviour
     {
         modelPlacementPanel.SetActive(true);
         openModelPlacementButton.SetActive(false);
+        openVideoPlacementButton.SetActive(false);
         appRemotingButton.SetActive(false);
-        loadAssetButton.SetActive(true);
+        loadAssetButton.SetActive(false);
     }
 
     public void CloseModelControls()
     {
         modelPlacementPanel.SetActive(false);
         openModelPlacementButton.SetActive(true);
+        openVideoPlacementButton.SetActive(true);
         appRemotingButton.SetActive(true);
         loadAssetButton.SetActive(true);
     }
