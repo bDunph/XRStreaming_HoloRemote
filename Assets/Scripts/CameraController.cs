@@ -29,12 +29,12 @@ public class CameraController : MonoBehaviour
     // Stores interpolated mouse values
     private Vector2 m_smoothMouse;
 
-    Keyboard keyboard;
+    //Keyboard keyboard;
 
     // Start is called before the first frame update
     void Start()
     {
-        keyboard = new Keyboard();
+        //keyboard = new Keyboard();
     }
 
     // Update is called once per frame
@@ -45,21 +45,25 @@ public class CameraController : MonoBehaviour
             // Use the mouse to rotate camera
             MouseLook();
         }
-        
 
-        if (keyboard.dKey.IsPressed())
+
+        //if (keyboard.dKey.IsPressed())
+        if (Input.GetKey(KeyCode.D))
         {
             transform.Translate(new Vector3(speed * Time.deltaTime, 0, 0));
         }
-        if (keyboard.aKey.IsPressed())
+        //if (keyboard.aKey.IsPressed())
+        if (Input.GetKey(KeyCode.A))
         {
             transform.Translate(new Vector3(-speed * Time.deltaTime, 0, 0));
         }
-        if (keyboard.sKey.IsPressed())
+        //if (keyboard.sKey.IsPressed())
+        if (Input.GetKey(KeyCode.S))
         {
             transform.Translate(new Vector3(0, 0, -speed * Time.deltaTime));
         }
-        if (keyboard.wKey.IsPressed())
+        //if (keyboard.wKey.IsPressed())
+        if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(new Vector3(0, 0, speed * Time.deltaTime));
         }
