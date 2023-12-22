@@ -29,7 +29,7 @@ public class ModelPathManager : MonoBehaviour
 
     public void GetModelPath()
     {
-        s_modelPath = modelPath.text;
+        s_modelPath = "file://" + modelPath.text;
         if(s_modelPath != null)
         {
             b_gotPath = true;

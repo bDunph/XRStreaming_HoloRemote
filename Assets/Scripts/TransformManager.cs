@@ -30,12 +30,12 @@ public class TransformManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Vector3 pos = new Vector3(-1.45f, -1.1f, 0.739f);
+        /*Vector3 pos = new Vector3(-1.45f, -1.1f, 0.739f);
         gameObject.transform.localPosition = pos;
         Vector3 rot = new Vector3(0, -115, 0);
-        gameObject.transform.eulerAngles = rot;
-        Vector3 scale = new Vector3(1, 1, 1);
-        gameObject.transform.localScale = scale;
+        gameObject.transform.eulerAngles = rot;*/
+        //Vector3 scale = new Vector3(1, 1, 1);
+        //gameObject.transform.localScale = scale;
     }
 
     // Update is called once per frame

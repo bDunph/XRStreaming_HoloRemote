@@ -11815,7 +11815,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2.5
-  lockCursor: 1
+  lockCursor: 0
   clampInDegrees: {x: 360, y: 180}
   sensitivity: {x: 0.1, y: 0.1}
   smoothing: {x: 5, y: 5}
